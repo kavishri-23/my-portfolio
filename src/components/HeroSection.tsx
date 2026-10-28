@@ -117,7 +117,7 @@ export const HeroSection: React.FC = () => {
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
             className="text-xs sm:text-sm font-semibold tracking-[0.35em] uppercase text-[#EAD8C7] hover:opacity-75 transition-opacity"
-            style={{ fontFamily: "'Montserrat', sans-serif" }}
+            style={{ fontFamily: "'Playfair Display', serif" }}
           >
             KAVISHRI SENGUTTUVAN.
           </a>
