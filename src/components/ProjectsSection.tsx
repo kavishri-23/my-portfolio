@@ -15,97 +15,85 @@ interface Project {
 const projects: Project[] = [
   {
     number: '01',
-    title: 'PolicyGuard AI',
-    category: 'AI / LEGAL-TECH PLATFORM',
+    title: 'AI Knowledge Assistant',
+    category: 'ARTIFICIAL INTELLIGENCE / LLM',
     description:
-      'AI-powered platform engineered for automated privacy policy analysis and legal contract auditing across web, desktop, and mobile. Implements NLP extraction, real-time risk alert detection, and generative risk score intelligence.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
-    tech: [
-      'React.js',
-      'React Native',
-      'Electron.js',
-      'Node.js',
-      'Express.js',
-      'MongoDB Atlas',
-      'OpenAI API',
-      'Prompt Eng',
-      'NLP',
-      'Docker',
-      'JWT',
-    ],
+      'An AI-powered knowledge assistant built with Python and Ollama to support document-based information retrieval and intelligent question answering.',
+    githubUrl:
+      'https://github.com/kavishri-23/ai-knowledge-assistant',
+    tech: ['Python', 'Ollama', 'LLM', 'AI', 'NLP'],
     metrics: [
-      { label: 'PLATFORMS', value: 'Web, Mobile, Desktop' },
-      { label: 'ENGINE', value: 'OpenAI NLP / GPT' },
-      { label: 'PIPELINE', value: 'Automated Scoring' },
+      { label: 'PROJECT TYPE', value: 'AI Assistant' },
+      { label: 'MODEL RUNTIME', value: 'Ollama' },
+      { label: 'LANGUAGE', value: 'Python' },
     ],
   },
   {
     number: '02',
-    title: 'Software Release Risk Heatmap',
-    category: 'MACHINE LEARNING / DEV PLATFORM',
+    title: 'Personal Finance Manager',
+    category: 'FINTECH / FINANCIAL MANAGEMENT',
     description:
-      'Full-stack predictive release management platform utilizing Machine Learning. Implements a trained Random Forest classifier to categorize release stability from Low to Critical risk, rendered over a live interactive team heatmap.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
+      'A personal finance management application designed to help users organize their finances, track income and expenses, and manage their budgets.',
+    githubUrl:
+      'https://github.com/kavishri-23/personal-finance-manager-',
     tech: [
-      'React.js',
-      'TypeScript',
-      'Python',
-      'FastAPI',
-      'scikit-learn',
-      'PostgreSQL',
-      'Tailwind CSS',
-      'REST APIs',
-      'JWT',
+      'Personal Finance',
+      'Expense Tracking',
+      'Budget Management',
     ],
     metrics: [
-      { label: 'MODEL', value: 'Random Forest' },
-      { label: 'ACCURACY', value: 'High Precision' },
-      { label: 'DASHBOARD', value: 'Live Risk Heatmap' },
+      { label: 'PROJECT TYPE', value: 'Finance Manager' },
+      { label: 'CORE FEATURE', value: 'Expense Tracking' },
+      { label: 'FOCUS', value: 'Budget Management' },
     ],
   },
   {
     number: '03',
-    title: 'Multi-Tenant SaaS Platform',
-    category: 'CLOUD / DISTRIBUTED SYSTEM',
+    title: 'E-Commerce Sales Analysis',
+    category: 'DATA ANALYTICS / BUSINESS INTELLIGENCE',
     description:
-      'Enterprise-grade multi-tenant platform built for unified management of teams, projects, and execution lifecycles. Architected with strict tenant data isolation, granular Role-Based Access Control (RBAC), and containerized deployments.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
+      'A sales analysis dashboard designed to explore sales performance, profitability, and product trends through data visualization and business insights.',
+    githubUrl: 'https://github.com/YOUR-USERNAME/YOUR-ECOMMERCE-REPO',
     tech: [
-      'Node.js',
-      'Express.js',
-      'PostgreSQL',
-      'React',
-      'Docker',
-      'JWT',
-      'RBAC',
-      'REST APIs',
+      'Excel',
+      'Data Cleaning',
+      'Pivot Tables',
+      'Charts',
+      'Data Analysis',
     ],
     metrics: [
-      { label: 'ARCHITECTURE', value: 'Multi-Tenant' },
-      { label: 'SECURITY', value: 'RBAC Isolation' },
-      { label: 'CONTAINERS', value: 'Docker Compose' },
+      { label: 'PROJECT TYPE', value: 'Data Analytics' },
+      { label: 'FOCUS', value: 'Sales & Profit' },
+      { label: 'OUTPUT', value: 'Dashboard' },
     ],
   },
   {
     number: '04',
-    title: 'Payment Gateway with Hosted Checkout',
-    category: 'FINTECH / PAYMENT SYSTEMS',
+    title: 'Healthcare Appointment & Emergency Priority Management System',
+    category: 'JAVA DEVELOPMENT / DATABASE',
     description:
-      'End-to-end hosted payment gateway infrastructure supporting seamless merchant order generation, multi-currency processing, and secure consumer checkout via UPI and Cards with webhook transaction verification.',
-    githubUrl: 'https://github.com/lohithadamisetti123',
-    tech: [
-      'Node.js',
-      'Spring Boot',
-      'PostgreSQL',
-      'React',
-      'Docker',
-      'REST APIs',
-      'UPI / Card Integrations',
-    ],
+      'A healthcare management system focused on appointment scheduling and emergency prioritization, using database technologies to organize healthcare-related information.',
+    githubUrl:
+      'https://github.com/kavishri-23/Healthcare-Appointment-Emergency-Priority-Management-System',
+    tech: ['Java', 'JDBC', 'MySQL', 'Database Management'],
     metrics: [
-      { label: 'PROTOCOLS', value: 'UPI & Cards' },
-      { label: 'BACKEND', value: 'Spring Boot + Node' },
-      { label: 'DATABASE', value: 'ACID PostgreSQL' },
+      { label: 'PROJECT TYPE', value: 'Healthcare System' },
+      { label: 'FOCUS', value: 'Emergency Priority' },
+      { label: 'DOMAIN', value: 'Healthcare' },
+    ],
+  },
+  {
+    number: '05',
+    title: 'Honeypot-Based Intrusion Detection System',
+    category: 'CYBERSECURITY / NETWORK SECURITY',
+    description:
+      'A cybersecurity project exploring honeypot-based intrusion detection to monitor suspicious activity, record unauthorized access attempts, and study potential security threats.',
+    githubUrl: 'https://github.com/YOUR-USERNAME/YOUR-HONEYPOT-REPO',
+    tech: ['Kali Linux', 'Cowrie', 'PentBox', 'Cybersecurity'],
+    metrics: [
+      { label: 'PROJECT TYPE', value: 'Intrusion Detection' },
+      { label: 'FOCUS', value: 'Threat Monitoring' },
+      { label: 'DOMAIN', value: 'Cybersecurity' },
     ],
   },
 ];
@@ -152,7 +140,7 @@ export const ProjectsSection: React.FC = () => {
             style={{ fontFamily: "'Bebas Neue', sans-serif" }}
           >
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] via-[#D5CBC0] to-[#605448] drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-              SELECTED WORKS.
+              MY PROJECTS.
             </span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
               ENGINEERED VALUE.

@@ -4,35 +4,39 @@ import type { Variants } from 'framer-motion';
 
 const bentoCategories = [
   {
-    title: 'FRONTEND ARCHITECTURE',
-    badge: 'CORE PILLAR',
-    items: ['React.js', 'React Native', 'Tailwind CSS', 'Electron.js'],
-    description: 'Specialized in building high-performance client applications, custom component libraries, and immersive desktop/mobile interfaces.',
-    stat: '100% RESPONSIVE',
+    title: 'WEB TECHNOLOGIES',
+    badge: 'FRONTEND',
+    items: ['HTML', 'CSS', 'JavaScript', 'React.js', 'Tailwind CSS'],
+    description:
+      'Building responsive user interfaces and exploring modern frontend development technologies.',
+    stat: 'WEB DEVELOPMENT',
     colSpan: 'lg:col-span-7',
   },
   {
-    title: 'DISTRIBUTED BACKEND',
-    badge: 'HIGH CONCURRENCY',
-    items: ['Node.js', 'Express.js', 'Spring Boot', 'Docker', 'Redis'],
-    description: 'Engineered RESTful APIs, JWT role-based access control, caching layers, and multi-tenant SaaS backend isolation.',
-    stat: '< 40ms LATENCY',
+    title: 'PROGRAMMING',
+    badge: 'CORE SKILLS',
+    items: ['Python', 'Java', 'C++'],
+    description:
+      'Developing programming fundamentals and applying logical thinking to solve practical problems.',
+    stat: 'CODING',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'DATA PLATFORMS',
-    badge: 'PERSISTENCE',
-    items: ['MongoDB Atlas', 'PostgreSQL', 'MySQL'],
-    description: 'Designing resilient relational and document schemas with optimized indexing and transaction isolation.',
-    stat: 'ACID & NOSQL',
+    title: 'DATABASE MANAGEMENT',
+    badge: 'DATA STORAGE',
+    items: ['MySQL', 'SQL', 'Database Design'],
+    description:
+      'Working with databases to organize information and understand data retrieval and management.',
+    stat: 'SQL & DATABASES',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'ALGORITHMS & MACHINE LEARNING',
-    badge: 'INTELLIGENCE',
-    items: ['C++', 'Python', 'Java', 'scikit-learn', 'OpenAI API'],
-    description: '1200+ algorithm problems solved. Applied Random Forest classifiers for real-time risk heatmaps and NLP policy analyzers.',
-    stat: '1200+ SOLVED',
+    title: 'AI & DATA ANALYTICS',
+    badge: 'EMERGING TECH',
+    items: ['Python', 'Excel', 'Data Analysis', 'Ollama', 'LLMs'],
+    description:
+      'Exploring AI-powered applications and analyzing data to identify useful insights through practical projects.',
+    stat: 'AI & ANALYTICS',
     colSpan: 'lg:col-span-7',
   },
 ];
@@ -105,10 +109,10 @@ export const SkillsSection: React.FC = () => {
             style={{ fontFamily: "'Bebas Neue', sans-serif" }}
           >
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] via-[#D5CBC0] to-[#605448] drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-              ARCHITECTURAL MASTERY.
+              TECHNICAL SKILLS.
             </span>
             <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
-              PRECISION APPLIED.
+              PRACTICAL KNOWLEDGE.
             </span>
           </h2>
         </motion.div>

@@ -67,14 +67,15 @@ export const HeroSection: React.FC = () => {
       {/* ================= 2. FIXED VIDEO LAYER ================= */}
       <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none bg-black flex items-center justify-end">
         <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="h-screen w-auto max-w-none object-contain origin-right scale-95 md:scale-[0.98] lg:scale-100"
-        >
-          <source src="/videos/hero.mp4" type="video/mp4" />
-        </video>
+         autoPlay
+         muted
+         loop
+         playsInline
+         className="absolute inset-0 h-full w-full object-cover"
+>
+          <source src="/videos/golded-sparks.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-l from-black/65 via-transparent to-transparent pointer-events-none" />
 
         {/* Seamless Soft Left Edge Blend */}
         <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-black via-black/85 to-transparent pointer-events-none" />
@@ -118,7 +119,7 @@ export const HeroSection: React.FC = () => {
             className="text-xs sm:text-sm font-semibold tracking-[0.35em] uppercase text-[#EAD8C7] hover:opacity-75 transition-opacity"
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            LOHITHA.
+            KAVISHRI SENGUTTUVAN.
           </a>
 
           {/* Navigation Links */}
@@ -173,17 +174,17 @@ export const HeroSection: React.FC = () => {
               >
                 {/* Line 1: I BUILD */}
                 <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] via-[#D5CBC0] to-[#605448] drop-shadow-[0_4px_12px_rgba(0,0,0,0.85)]">
-                  I BUILD
+                  I CREATE
                 </span>
 
-                {/* Line 2: DIGITAL */}
+                {/* Line 2: FULL STACK */}
                 <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
-                  DIGITAL
+                  SMART
                 </span>
 
-                {/* Line 3: EXPERIENCES */}
+                {/* Line 3: PRODUCTS */}
                 <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#DFBE8A] via-[#9B7640] to-[#342410] drop-shadow-[0_10px_30px_rgba(155,118,64,0.4)]">
-                  EXPERIENCES
+                  SOLUTIONS
                 </span>
               </h1>
             </motion.div>
@@ -194,7 +195,7 @@ export const HeroSection: React.FC = () => {
                 className="text-[10px] sm:text-[11px] md:text-xs font-normal tracking-[0.28em] uppercase text-[#C4B29E]"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
-                FULL STACK DEVELOPER <span className="text-[#8C6D4F] mx-1">•</span> UI/UX DESIGNER <span className="text-[#8C6D4F] mx-1">•</span> DATA SCIENCE
+                FULL STACK DEVELOPER <span className="text-[#8C6D4F] mx-1">•</span> AI ENTHUSIAST <span className="text-[#8C6D4F] mx-1">•</span> DATA ANALYTICS
               </p>
             </motion.div>
 
@@ -205,10 +206,10 @@ export const HeroSection: React.FC = () => {
               style={{ fontFamily: "'Montserrat', sans-serif" }}
             >
               <p>
-                I turn bold ideas into seamless digital experiences.
-                <br />
-                Where frontend meets powerful backend, and code transforms vision into impact.
-              </p>
+              I explore software development, artificial intelligence, and data analytics through practical projects.
+              <br />
+              I turn ideas into useful solutions through continuous learning and problem-solving.
+            </p>
             </motion.div>
 
             {/* CTA Buttons */}
@@ -282,7 +283,7 @@ export const HeroSection: React.FC = () => {
                 letterSpacing: '0.04em',
               }}
             >
-              Lohitha
+              KAVISHRI SENGUTTUVAN
             </div>
           </motion.div>
         </div>

@@ -54,10 +54,10 @@ export const ContactSection: React.FC = () => {
                   style={{ fontFamily: "'Bebas Neue', sans-serif" }}
                 >
                   <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#FFFFFF] via-[#D5CBC0] to-[#605448] drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-                    INITIALIZE
+                    LET'S CONNECT.
                   </span>
                   <span className="block text-transparent bg-clip-text bg-gradient-to-b from-[#F7E7C4] via-[#C99E5D] to-[#543B1A] drop-shadow-[0_8px_25px_rgba(201,158,93,0.35)]">
-                    TRANSMISSION.
+                    GET IN TOUCH.
                   </span>
                 </h2>
               </motion.div>
@@ -66,7 +66,7 @@ export const ContactSection: React.FC = () => {
                 className="text-xs sm:text-[13px] font-light text-[#A8988B] leading-relaxed max-w-md"
                 style={{ fontFamily: "'Montserrat', sans-serif" }}
               >
-                Have an ambitious system to architect, an engineering opportunity, or a collaborative inquiry? Send a direct dispatch below.
+                I'm open to internship opportunities, collaborative projects, and connecting with people passionate about technology, AI, and data analytics.
               </p>
             </div>
           </div>
@@ -155,7 +155,7 @@ export const ContactSection: React.FC = () => {
                   className="w-full py-3.5 border border-[#8C6D4F]/50 bg-[#14100D] hover:border-[#D4AF37] hover:bg-[#1A1510] text-[#E8DFD8] hover:text-[#F7E7C4] text-xs font-medium tracking-[0.25em] uppercase transition-all duration-300 shadow-[0_4px_20px_rgba(0,0,0,0.5)]"
                   style={{ fontFamily: "'Montserrat', sans-serif" }}
                 >
-                  EXECUTE DISPATCH ↗
+                  SEND MESSAGE ↗
                 </button>
 
               </form>
